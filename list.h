@@ -1,9 +1,9 @@
-#ifndef LIST.H
-#define LIST.H
+#ifndef LIST_H
+#define LIST_H
 #include <string>
 #include <vector> 
 
-struct Job {
+struct Tasks {
 string desc;
 bool finished;
 };
