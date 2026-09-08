@@ -23,6 +23,9 @@ void viewTasks(const vector<Tasks>& tasks){
     if (tasks[i].finished == true) {
       cout << " [FINISHED]\n";
     }
+    else {
+      cout << " \n";
+    }
   }
 }
 
