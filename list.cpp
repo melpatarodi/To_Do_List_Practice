@@ -1,4 +1,5 @@
 #include "list.h"
+#include <iostream>
 
 void addTask(vector<Tasks>& tasks){
   Tasks newTask;
