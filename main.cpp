@@ -7,30 +7,30 @@ using namespace std;
 int main() {
 vector<Tasks> tasks;
 bool exit = false;
-int choice;
+char choice;
 
 while (!exit) {
   cout << "_________TO DO LIST_________\n" << "1. Add task\n" << "2. View Tasks\n" << 
     "3. Mark completed task\n" << "4. Delete task\n" << "5. Exit\n" << "Enter a number: ";
   cin >> choice;
   switch (choice) {
-    case 1:  
+    case '1':  
       addTask(tasks);
       cout << "\n";
       break;
-    case 2:
+    case '2':
       viewTasks(tasks);
       cout << "\n";
       break;
-    case 3:
+    case '3':
       completeTask(tasks);
       cout << "\n";
       break;
-    case 4:
+    case '4':
       deleteTask(tasks);
       cout << "\n";
       break;
-    case 5:
+    case '5':
       cout << "Goodbye!\n";
       cout << "\n";
       exit = true;
