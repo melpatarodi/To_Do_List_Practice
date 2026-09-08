@@ -5,7 +5,7 @@ void addTask(vector<Tasks>& tasks){
   
   cout << "What task would you like to add?\n";
   getline(cin, newTask.desc);
-  newtask.finished = false;
+  newTask.finished = false;
   tasks.push_back(newTask);
 
   cout << "Added!\n";
