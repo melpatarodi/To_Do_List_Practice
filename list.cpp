@@ -10,7 +10,7 @@ void addTask(vector<Tasks>& tasks){
 
   cout << "Added!\n";
 }
-void viewTask(const vector<Tasks>& tasks){
+void viewTasks(const vector<Tasks>& tasks){
   cout << "==================\n";
   if (tasks.empty()){
     cout << "There are no tasks.\n";
