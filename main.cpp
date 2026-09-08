@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-vector<Task> tasks;
+vector<Tasks> tasks;
 bool exit = false;
 int choice;
 
