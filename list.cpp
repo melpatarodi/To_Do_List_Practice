@@ -1,9 +1,10 @@
 #include "list.h"
 
 void addTask(vector<Tasks>& tasks){
-  Task newTask;
+  Tasks newTask;
   
   cout << "What task would you like to add?\n";
+  cin.ignore();
   getline(cin, newTask.desc);
   newTask.finished = false;
   tasks.push_back(newTask);
@@ -19,7 +20,7 @@ void viewTasks(const vector<Tasks>& tasks){
   for (int i = 0; i < tasks.size(); i++) {
     cout << "Task " << i+1 << ": " << tasks[i].desc;
     if (tasks[i].finished == true) {
-      cout << " [FINISHED]\n"
+      cout << " [FINISHED]\n";
     }
   }
 }
