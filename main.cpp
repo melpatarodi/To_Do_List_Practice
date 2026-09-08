@@ -10,7 +10,7 @@ bool exit = false;
 int choice;
 
 while (!exit) {
-  cout << "_________TO DO LIST_________\n" << "1. Add task\n" << "2. View Tasks\n << 
+  cout << "_________TO DO LIST_________\n" << "1. Add task\n" << "2. View Tasks\n" << 
     "3. Mark completed task\n" << "4. Delete task\n" << "5. Exit\n" << "Enter a number: ";
   cin >> choice;
   switch (choice) {
