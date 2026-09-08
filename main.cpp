@@ -16,22 +16,28 @@ while (!exit) {
   switch (choice) {
     case 1:  
       addTask(tasks);
+      cout << "\n";
       break;
     case 2:
       viewTasks(tasks);
+      cout << "\n";
       break;
     case 3:
       completeTask(tasks);
+      cout << "\n";
       break;
     case 4:
       deleteTask(tasks);
+      cout << "\n";
       break;
     case 5:
       cout << "Goodbye!\n";
+      cout << "\n";
       exit = true;
       break;
     default: 
       cout << "Invalid. Try again.\n";
+      cout << "\n";
       break;
   }
 }
