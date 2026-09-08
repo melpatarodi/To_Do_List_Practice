@@ -26,17 +26,17 @@ void viewTasks(const vector<Tasks>& tasks){
 
 void completeTask(vector<Tasks>& tasks){
   int input;
-  cout << "Enter the number of the task you completed: \n"
+  cout << "Enter the number of the task you completed: \n";
   cin >> input;
   tasks[input-1].finished = true;
   cout << "Task complete. \n";
 }
 void deleteTask(vector<Tasks>& tasks){
   int input;
-  cout << "Enter the task number you want to delete: \n"
+  cout << "Enter the task number you want to delete: \n";
   cin >> input;
   if (input < 1 || input > tasks.size()) {
-    cout << "Invalid task number.\n"
+    cout << "Invalid task number.\n";
     return;
   }
   tasks.erase(tasks.begin() + (input - 1));
